@@ -4,7 +4,9 @@
     background-color: #35344A;
     color: #D3C7B8;
     margin: 0;
+    padding: 0;
 }
+
 
 h1, h2 {
     font-family: 'Lato', sans-serif;
@@ -14,41 +16,85 @@ p, a {
     font-family: 'Oswald', sans-serif;
 }
 
-
 /* navbar */
-
-ul {
-    height: 10vh;
-}
-
-#nav-bar, #nav-bar li, #nav-bar a {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0.50rem
-    
-}
-
-#nav-bar a {
-    margin: 10px;
-    vertical-align: middle;
-    font-size: 20px;
+nav {
+    border-bottom: solid 1px #D3C7B8;
+    width: 100%;
+    position: fixed;
 }
 
 #nav-bar {
-    border-bottom: solid 1px #D3C7B8;
-    padding-right: 2rem;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
 }
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 70px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+
+.logo {
+    color: #786445;
+    font-size: 25px;
+    padding-left: 20px;
+    float: left;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    font-size: 16px;
+    margin-left: 40px;
+    margin-top: 27px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+    color: #786445;
+}
+
 
 /* main section */
 #hero-image {
     height: 90vh;
     background-image: url("../images/robert-thomas-mqMY-BCpFec-unsplash.jpg");
     background-size: cover;
+}
+
+#introduction-text {
+    display: inline;
+    width: 40%;
     
 }
 
-#introduction-wexford {
-    height: 90%;
+#introduction-wexford > h1 {
+    padding: 5rem;
+}
+
+#introduction-video {
+    display: inline;
+    float: right;
+    width: 40%;
 }
