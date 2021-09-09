@@ -76,6 +76,8 @@ ul li a:hover {
 
 
 /* main section */
+
+
 #hero-image {
     height: 90vh;
     background-image: url("../images/johnstown-house.jpg");
@@ -105,27 +107,26 @@ ul li a:hover {
 #gallery {
     max-width: 1200px;
     margin: auto;
-    background-color: #D3C7B8;
     overflow: auto;
 }
 
 .pictures {
     margin: 5px;
-    /* border: 1px solid #D3C7B8; */
     float: left;
-    width: 390px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 390px;    
 }
 
 #gallery img {
-    width: 100%;
-    height: auto;
+    width: 390px;
+    height: 219.547px;
+    float: left;
 }
 
 .description {
     padding: 15px;
     text-align: center;
+    background-color: #D3C7B8;
+    color: #35344A;
 }
 
 
