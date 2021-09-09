@@ -99,14 +99,13 @@ ul li a:hover {
 
 /* form */
 #form {
-    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 fieldset {
-    margin-bottom: 2rem;
+    margin: 2rem;
     border: 1px solid #D3C7B8;
     display: flex;
     justify-content: center;
@@ -117,6 +116,12 @@ legend {
     margin-top: 1.5rem;
     margin-bottom: 1rem;
     display: block;
+}
+
+.details {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 label {
@@ -139,7 +144,7 @@ textarea {
 }
 
 button {
-    margin: 2rem 0;
+    margin: 1rem;
     background-color: #786445;
     color: #D3C7B8;
     font-size: 1rem;
