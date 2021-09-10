@@ -32,16 +32,17 @@
             <p>We would love to hear from you</p>
             <fieldset>
                 <legend><h3>Your contact information</h3></legend>
-            <form action="post">
+            <form action="mailto:sarahannejameson@gmail.com" method="POST" enctype="text/plain">
                 <label for="fname" class="details">First Name</label>
-                <input id="fname" type="text" name="first_name" class="details"nrequired>
+                <input id="fname" type="text" name="first_name" class="details entry"nrequired>
                 <label for="lname" class="details">Last Name</label>
-                <input id="lname" type="text" name="last_name" class="details" required>
+                <input id="lname" type="text" name="last_name" class="details entry" required>
                 <label for="email" class="details">Email</label>
-                <input id="email" type="email" name="email" class="details" required>
+                <input id="email" type="email" name="email" class="details entry" required>
                 <label for="message" class="details">Enter a message...</label>
                 <textarea name="message" id="message" class="details"></textarea>
-                <button>Submit</button>
+                <input class="button" type="submit" value="Send">
+                <input class="button" type="reset" value="Reset">
             </form>
         </fieldset>
         </section>
