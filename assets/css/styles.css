@@ -11,6 +11,10 @@
 
 }
 
+a {
+    cursor: pointer;
+}
+
 
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
@@ -28,22 +32,19 @@ a:hover {
 /* navbar */
 nav {
     border-bottom: solid 1px #D3C7B8;
-    width: 100%;
-    position: fixed;
-    background-color: #35344A;
 }
 
 #nav-bar {
-    width: 1200px;
-    height: 75px;
+    width: 100%;
+    height: 5rem;
     margin: auto;
     
 }
 
 .icon {
-    width: 200px;
+    width: 10rem;
     float: left;
-    height: 70px;
+    height: 5rem;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -52,14 +53,8 @@ nav {
 .logo {
     color: #786445;
     font-size: 25px;
-    padding-left: 20px;
+    padding-left: 2rem;
     float: left;
-}
-
-.menu {
-    width: 400px;
-    float: left;
-    height: 70px;
 }
 
 ul {
@@ -98,6 +93,7 @@ ul li a:hover {
 
 #introduction {
     margin: 2rem;
+    flex-shrink: 1;
 }
 
 #introduction h1 {
@@ -131,6 +127,28 @@ ul li a:hover {
 }
 
 
+/* history */
+
+
+#history {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 6rem;
+    margin: 3rem;
+}
+.history-heading {
+    text-align: center;
+    margin: 3rem;
+}
+
+
+.history-content {
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+
 /* gallery */
 
 
@@ -138,6 +156,7 @@ ul li a:hover {
     max-width: 1200px;
     margin: auto;
     overflow: auto;
+    flex-wrap: wrap;
 }
 
 .pictures {
@@ -265,3 +284,4 @@ i {
     font-size: 2rem;
 }
 
+/* media queries */
