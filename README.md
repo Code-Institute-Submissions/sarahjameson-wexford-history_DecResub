@@ -1,108 +1,94 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Wexford History
 
-Welcome Sarah Jameson,
+pic
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+link to website
+github
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## About
 
-## Gitpod Reminders
+This website was created to encourage people to explore Wexford. It hopes to show people that history can be fun and accepted of all people. History can be an imtimidating subject and people can become relucant to learn much about it because it can appear dated and guarded. Wexford's history is for everyone and can combine with many other fun activities such as a pub crawl or a crazy trad music night!
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of Contents
 
-`python3 -m http.server`
+[UX Experience] (##UX Experience)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## UX Experience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Stories
 
-A blue button should appear to click: _Make Public_,
+* As a visit who is looking to find new ways to spend their time
+    - I want to understand the site and its purpose
+    - I want to see a highight of different activities as a flavour of what the group do
+    - I want handy links to some activities so I do not have to waste any time searching up the website
 
-Another blue button should appear to click: _Open Browser_.
+* A a visitor, looking for friends
+    - I want to see that it is not just a tourist site
+    - I want notice the friendly and welcoming nature of the site so I do not feel intimidated
+    - I want to understand that there are different opportunties for socialising and learning at the same time
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* As a visitor who wants to see what is in Wexford and understand it from a historical view
+    - I want to see a brief overview of its history
+    - I want to see a call-to-action so that I can act on the flavour of offering and join
 
-To log into the Heroku toolbelt CLI:
+### Design
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+* Colour Scheme
+    - For this website, I took inspiration from a famous Wexford tapestry. You can read more about it [here](https://www.discoverireland.ie/wexford/the-ros-tapestry-exhibition-centre). I wanted the style of the page to not take away from the content so choose three of the colours rather than all five. The three I picked were: #35344A, #D3C7B8 and #786445.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![Colour Scheme] (assets/images/colour-scheme.png)
 
-------
+* Typography
+    - I used Google fonts for the copy
+    - I used Lato for the headings. It is a fun font but also has a feeling of historical heritage
+    - Oswald was used for the paragraph writings and links on the page. It is a fun, modern and stylist font which goes with the purpose of the page
 
-## Release History
+* Imagery
+    - Images on the page serve to show some of the highlights of Wexford. They aim to show the variety of things to see. I used royalty free images found from a search on [Unsplash.](https://unsplash.com/s/photos/wexford) The pictures are all so beautiful and really add some charm to the site. They are the spice to the site as the colour scheme is muted.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* Wireframe
+    - Wireframes were created using Balsamique
+    add
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Features
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* Header
+    - The header is at the top of the pages
+    - The logo is positioned at the top and is visible on all pages
+    - The logo acts as a home page as well
+    - There is a hover effect and the mouse changes when hovered to indicate that it can be clicked
+* Main
+    - All pages have content which aims to be spread out and readable
+    - T
+* Footer
+    - Footer is always at bottom of the pages
+    - Social links are grouped together and spaced evenly between for ease on eyes
+    - There is a call-to-action and a friendly emoji to encourge people to interact with the social media pages
+* Landing page
+    - Gives introduction to page's function so user is informed
+    - Uses mix of media including photos, text and video to encourage engagement
+    - Hero image provides an immediate visual engagement with user
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* Future Features
+    - Timelines of Wexford through the ages
+    - Social media feed to show what is happening under Wexford hashtag
+    - Way for people to 'like' posts on the site to encourge engagement
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Technologies Used
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
+* [Font Awesome](https://fontawesome.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Git](https://git-scm.com/)
+* [GitHub](https://github.com/)
+* [TingJPG](https://tinyjpg.com/)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Testing
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Deployment
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Known Bugs
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+## Credits
