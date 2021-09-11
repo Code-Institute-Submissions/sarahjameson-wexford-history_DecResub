@@ -11,6 +11,7 @@
 
 }
 
+
 a {
     cursor: pointer;
 }
@@ -52,7 +53,7 @@ nav {
 
 .logo {
     color: #786445;
-    font-size: 25px;
+    font-size: 2rem;
     padding-left: 2rem;
     float: left;
 }
@@ -62,13 +63,14 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 ul li {
     list-style: none;
-    font-size: 16px;
-    margin-left: 40px;
-    margin-top: 27px;
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
 
 ul li a {
@@ -93,7 +95,6 @@ ul li a:hover {
 
 #introduction {
     margin: 2rem;
-    flex-shrink: 1;
 }
 
 #introduction h1 {
@@ -127,6 +128,29 @@ ul li a:hover {
 }
 
 
+@media screen and (max-width: 950px) {
+    #introduction {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    }
+    
+    #things-to-do {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    } #map {
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 1;
+    } #nav-bar {
+        border: none;
+    } ul {
+        width: 100%;
+    }
+}
+
+
 /* history */
 
 
@@ -157,6 +181,12 @@ ul li a:hover {
     margin: auto;
     overflow: auto;
     flex-wrap: wrap;
+    padding-bottom: 2rem;
+}
+
+#gallery h2 {
+    text-align: center;
+    padding: 2rem;
 }
 
 .pictures {
@@ -189,6 +219,10 @@ ul li a:hover {
     justify-content: center;
 }
 
+#form h2 {
+    padding-top: 2rem;
+}
+
 fieldset {
     margin: 2rem;
     border: 1px solid #D3C7B8;
@@ -201,7 +235,7 @@ fieldset {
 
 #form, fieldset {
     height: auto;
-    width: 80%;
+    width: 90%;
 }
 
 legend {
