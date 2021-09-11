@@ -1,17 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
 * {
-    background-color: #35344A;
     color: #D3C7B8;
     margin: 0;
     padding: 0;
     font-family: 'Oswald', sans-serif;
     box-sizing: border-box;
+    background-color: #35344A;
+    letter-spacing: 1px;
+
 }
 
 
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
+}
+
+section {
+    line-height: 2;
+}
+
+a:hover {
+    cursor: pointer;
 }
 
 
@@ -20,12 +30,14 @@ nav {
     border-bottom: solid 1px #D3C7B8;
     width: 100%;
     position: fixed;
+    background-color: #35344A;
 }
 
 #nav-bar {
     width: 1200px;
     height: 75px;
     margin: auto;
+    
 }
 
 .icon {
@@ -74,30 +86,48 @@ ul li a:hover {
     color: #786445;
 }
 
-
 /* main section */
 
 
 #hero-image {
-    height: 90vh;
-    background-image: url("../images/johnstown-house.jpg");
+    height: 600px;
+    background-image: url("../images/caste-on-water.jpg");
     background-size: cover;
+    border: 2px solid #786445;
 }
 
-#introduction-text {
-    display: inline;
-    width: 40%;
-    
+#introduction {
+    margin: 2rem;
 }
 
-#introduction-wexford > h1 {
-    padding: 5rem;
+#introduction h1 {
+    text-align: center;
+    background-color: #D3C7B8;
+    color: #35344A;
+    display: flex;
+    justify-content: center;
 }
 
-#introduction-video {
-    display: inline;
-    float: right;
-    width: 40%;
+.introduction-content {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#things-to-do h2 {
+    padding: 2rem;
+    text-align: center;
+}
+
+.things-to-do-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#map {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem;
 }
 
 
@@ -131,6 +161,8 @@ ul li a:hover {
 
 
 /* form */
+
+
 #form {
     display: flex;
     flex-direction: column;
@@ -170,7 +202,7 @@ label {
 }
 
 .entry {
-    border: 1px solid #D3C7B8;
+    border: 2px solid #D3C7B8;
     width: 100%;
 }
 
@@ -204,8 +236,32 @@ textarea {
 /* footer */
 
 
-footer {
+.footer-cta {
+    border-top: 1px solid #D3C7B8;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
+.footer-cta ul {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 75px;
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+i {
+    font-size: 2rem;
 }
 
