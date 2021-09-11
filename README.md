@@ -100,6 +100,8 @@ This website was created to encourage people to explore Wexford. It hopes to sho
 
 ![](assets/images/welcome.png)
 
+![](assets/images/footer.png)
+
 
 ## Technologies Used
 
