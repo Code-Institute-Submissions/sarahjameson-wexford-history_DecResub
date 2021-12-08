@@ -60,10 +60,9 @@ a:hover {
     font-size: 17px;
   }
   
-  .topnav a:hover {
+  /* .topnav a:hover {
     background-color: #786445;
-    /* color: black; */
-  }
+  } */
   
   .topnav a.active {
     color: white;
@@ -72,15 +71,6 @@ a:hover {
   .topnav .icon {
     display: none;
   }
-
-  .icon {
-    width: 10rem;
-    float: left;
-    height: 5rem;
-    display: flex;
-    justify-self: center;
-    align-items: center;
-}
 
 .logo {
     background-color: #786445;
@@ -374,27 +364,4 @@ i {
       text-align: left;
     }
   }
-
-/* @media screen and (max-width: 950px) {
-
-    #introduction {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-    }
-    
-    #things-to-do {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-    } #map {
-        display: flex;
-        flex-wrap: wrap;
-        flex-grow: 1;
-    } #nav-bar {
-        border: none;
-    } ul {
-        width: 100%;
-    }
-} */
 
