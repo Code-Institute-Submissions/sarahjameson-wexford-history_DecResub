@@ -30,9 +30,6 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
-/* p {
-    margin: 2rem;
-} */
 
 main {
     line-height: 2;
@@ -44,7 +41,6 @@ a:hover {
 
 .wrapper {
     margin: 0 auto;
-    /* padding: 0 10px; */
     width: 95%;
 }
 
@@ -63,10 +59,6 @@ a:hover {
     text-decoration: none;
     font-size: 17px;
   }
-  
-  /* .topnav a:hover {
-    background-color: #786445;
-  } */
   
   .topnav a.active {
     color: white;
@@ -108,7 +100,6 @@ ul li a:hover {
 }
 
 
-
 /* main section */
 
 
@@ -129,7 +120,6 @@ ul li a:hover {
 .map {
     display: flex;
     margin: 30px;
-    /* justify-content: space-evenly; */
     padding: 4rem;
 }
 
@@ -140,7 +130,6 @@ ul li a:hover {
     padding-top: 62.5%; /* 8:5 Aspect Ratio */
   }
   
-  /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
     top: 0;
     left: 0;
@@ -152,7 +141,6 @@ ul li a:hover {
 
 
 /* history */
-
 
 #history {
     display: flex;
@@ -176,10 +164,11 @@ ul li a:hover {
 
 .collection{
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 900px;
 }
 
 #gallery {
+    display: flex;
     max-width: 1200px;
     margin: auto;
     overflow: auto;
@@ -195,7 +184,6 @@ ul li a:hover {
 .pictures {
     margin: 5px;
     float: left;
-    /* width: 390px;    */
     width: 100%;
     height: auto; 
 }
@@ -204,8 +192,6 @@ ul li a:hover {
 #gallery img {
     width: 100%;
     height: auto;
-    /* width: 390px;
-    height: 219.547px; */
     float: left;
 }
 
@@ -218,7 +204,6 @@ ul li a:hover {
 
 
 /* form */
-
 
 #form {
     display: flex;
@@ -296,7 +281,6 @@ textarea {
 
 /* footer */
 
-
 .footer-cta {
     border-top: 1px solid #D3C7B8;
     text-align: center;
@@ -326,10 +310,11 @@ i {
     font-size: 2rem;
 }
 
+
 /* media queries */
 
 @media only screen and (max-width: 968px) {
-    .gallery {
+    #gallery {
       display: grid;
       grid-template-columns: 1fr;
       padding: 1em;

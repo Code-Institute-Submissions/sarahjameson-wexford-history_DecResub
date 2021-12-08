@@ -1,6 +1,6 @@
 # Wexford History
 
-![](assets/images/hero.png)
+![](assets/images/responsive.png)
 
 
 * 💻 [Deployed Site](https://sarahjameson.github.io/wexford-history/index.html)
@@ -83,7 +83,6 @@ This website was created to encourage people to explore Wexford. It hopes to sho
     - There is a hover effect and the mouse changes when hovered to indicate that it can be clicked
 * Main
     - All pages have content which aims to be spread out and readable
-    - T
 * Footer
     - Footer is always at bottom of the pages
     - Social links are grouped together and spaced evenly between for ease on eyes
@@ -92,15 +91,23 @@ This website was created to encourage people to explore Wexford. It hopes to sho
     - Gives introduction to page's function so user is informed
     - Uses mix of media including photos, text and video to encourage engagement
     - Hero image provides an immediate visual engagement with user
+* Form
+    - Allows user to get in contact and share opinions
 
 * Future Features
     - Timelines of Wexford through the ages
     - Social media feed to show what is happening under Wexford hashtag
     - Way for people to 'like' posts on the site to encourge engagement
 
-![](assets/images/welcome.png)
+![](assets/images/home.png)
+
+![](assets/images/intro.png)
 
 ![](assets/images/footer.png)
+
+![](assets/images/form.png)
+
+
 
 
 ## Technologies Used
@@ -122,6 +129,7 @@ This website was created to encourage people to explore Wexford. It hopes to sho
 * All links are working and have been tested
 * The navigation bar is at the top of the page
 
+
 ### Footer
 * Footer is always at bottom of page
 * If social media links are clicked, they open to the right platform
@@ -134,25 +142,27 @@ This website was created to encourage people to explore Wexford. It hopes to sho
 ### Gallery
 * All images are responsive and stay visible to user
 
+![](assets/images/gallery.png)
+
 ### CSS3 Validator - Pass
 * See results [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### HTML5 Validator
-* Landing Page - Fail - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2F)
+* Landing Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Findex.html)
 * History Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Fhistory.html)
-* Gallery Page - Fail - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Fgallery.html)
-* Contact Page - Fail - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Fform.html)
+* Gallery Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Fgallery.html)
+* Contact Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fsarahjameson.github.io%2Fwexford-history%2Fform.html)
 
 ### Compatibility Testing
-* It looks similar on different browsers. There were some differences on Safari but did not have time to make the changes. I will work on that in the future and make sure the site looks uniform on all browsers.
-* I had some difficulty with the responsiveness of the site especially when it gets down to the mobile size. I want to make it responsive and suitable for all sizes. 
+* It looks the same on different browsers.
+* The site is responsive across devices.
 
 ### Performance Testing
 * Webpage Performance Testing was carried out with [WebPageTest](https://www.webpagetest.org/). The test location was set to Ireland the the browser was set to Chrome. There were some areas of improvement suggested such as security and cashe static content. I will look tp improve these in the future.
-* Landing Page - [Results](https://www.webpagetest.org/result/210911_AiDc05_aad37a4138497a7c0f2d8271f5fcd537/)
-* History Page - [Results](https://www.webpagetest.org/result/210911_AiDcPC_be5521bfc69e7b0bfa697863c8628ab3/)
-* Gallery Page - [Results]()
-* Conact Page - [Results]()
+* Landing Page - [Results](https://www.webpagetest.org/result/211208_BiDcAM_fe78576d1025ab6508385c94ee850947/)
+* History Page - [Results](https://www.webpagetest.org/result/211208_AiDcRD_8a892eaadc4c532d7105560d642e1bd3/)
+* Gallery Page - [Results](https://www.webpagetest.org/result/211208_BiDcS8_f62c54fd8cdce1ffe08122c0d4011e11/)
+* Contact Page - [Results]()
 
 ### Testing User Stories
 * As a visit who is looking to find new ways to spend their time
@@ -216,7 +226,7 @@ Instructions to do this:
 
 ## Known Bugs
 
-The site's responsiveness is causing issues and has to be worked on. Also, the Safari site looks slightly different to the chrome one.
+The site's gallery page is meant to be in a grid view on bigger screens but is not working currently. I will work on this in the future.
 
 ## Credits
 
@@ -224,4 +234,5 @@ The site's responsiveness is causing issues and has to be worked on. Also, the S
 * All the pictures were taken from a search on [Unsplash](https://unsplash.com/)
 * Videos were found on [YouTube](https://youtube.com)
 * I created the colour scheme with [Colormind](http://colormind.io/image/)
-* A massive thank you to my mentor Maranatha who guided me to hand in a project when I didn't think I'd have time. I didn't manage to sort out the responsiveness but it's a good attempt considering where we were a few days ago
+* I used [W3schools](https://www.w3schools.com/css/css_navbar.asp) for my navbar
+* A massive thank you to my mentor Maranatha who guided me to hand in a project when I didn't think I'd have time. I managed to finally make the site responsive!
