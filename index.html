@@ -11,29 +11,70 @@
 
 
 <body>
+    
     <header>
-        <nav>
-            <div id="nav-bar">
-                <a class="icon" href="index.html"><h2 class="logo">Wexford History</h2></a>
-                <div class="menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="history.html">History</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="form.html">Contact</a></li>
-                    </ul>
-                </div>
-
-            </div>
+        <nav>  
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="logo">Wexford History</a>
+                <a href="index.html">Home</a>
+                <a href="history.html">History</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="form.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
         </nav>
     </header>
 
+    <main>
+        <section id="hero-image">
 
-    <section id="hero-image">
-    </section>
+        </section>
 
         
+
         <section id="introduction">
+            <h1>Welcome to Wexford 👋</h1>
+        </section>
+        <div class="wrapper"></div>
+
+        <section id="map">
+            
+            <p style="margin-right: 20px">We hope through the use of this website, you can learn something about our beautiful county 🎉 
+                <br> <br> This website was born from a community effort to promote our hometown and its vibrant history. 
+                <br> We hope that people who visit the site might be encouraged to explore and spend time in Wexford. 
+                <br> We regularly have meetups and events whch serve as educational opportunities for all. Everyone is welcome to join! 
+                <br> <br> You can send us a message <a href="form.html">here</a> to get involved.</p>
+            <iframe class="responsive-iframe" width="450" height="300" src="https://www.youtube.com/embed/67qy5SEhKJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </section>
+
+        <section id="map">
+
+            <iframe class="responsive-iframe" width="450" height="300" src="https://www.youtube.com/embed/QkPPci0epZc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p style="margin-left: 20px;">There is so much to see and discover in the sunny south-east 👀
+                <br>🌊 Beaches 
+                <br>🏰 Castles 
+                <br>🌲 Beautiful Forest Walks 
+                <br>🍛 Best Restaurants</p>
+
+        </section>
+            
+        <section id="map">
+            <p style="margin-right: 20px">Ride the country roads as they take you to wonderful historical disoveries that shock and delight you. 
+                <br>Give Netlfix a run for its money by hearing of tails both romantic and devasting. 
+                <br> We have road trips twice a month which are lead by expert historians who also have a flair for storytelling. 
+                <br>Truly, not to be missed. 
+                <br><br>We are always putting on events for Wexford residents and tourists! It's a great opportunity to mix with like-minded people. 
+                <br>We have had such a variety of events such as a coctail evening, pub crawl, walking tour, trad music events etc. 
+                <br>The choice of events demonstrates that history can be fun and for everyone!</p>
+                <iframe class="responsive-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311224.66405877896!2d-6.859667611068143!3d52.45300971983917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486801bc419a03f1%3A0x1800c7acf1800240!2sCo.%20Wexford!5e0!3m2!1sen!2sie!4v1631303554477!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
+        </section>
+
+
+
+        <!-- <section id="introduction">
             <h1>Welcome to Wexford 👋</h1>
             <div class="introduction-content">
                 <p>We hope through the use of this website, you can learn something about our beautiful county 🎉 <br> <br> This website was born from a community effort to promote our hometown and its vibrant history. <br> We hope that people who visit the site might be encouraged to explore and spend time in Wexford. <br> We regularly have meetups and events whch serve as educational opportunities for all. Everyone is welcome to join! <br> <br> You can send us a message <a href="form.html">here</a> to get involved.</p>
@@ -51,9 +92,10 @@
         <section id="map">
             <p>Ride the country roads as they take you to wonderful historical disoveries that shock and delight you. <br>Give Netlfix a run for its money by hearing of tails both romantic and devasting. <br> We have road trips twice a month which are lead by expert historians who also have a flair for storytelling. <br>Truly, not to be missed. <br><br>We are always putting on events for Wexford residents and tourists! It's a great opportunity to mix with like-minded people. <br>We have had such a variety of events such as a coctail evening, pub crawl, walking tour, trad music events etc. <br>The choice of events demonstrates that history can be fun and for everyone!</p>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311224.66405877896!2d-6.859667611068143!3d52.45300971983917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486801bc419a03f1%3A0x1800c7acf1800240!2sCo.%20Wexford!5e0!3m2!1sen!2sie!4v1631303554477!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            
-        </section>
+        </section> -->
 
-
+    </main>
+</div>
     <footer>
         <h3 class="footer-cta">Follow Our History Group's Socials for More Updates 😄</h3>
         <ul class="social-networks">
@@ -71,6 +113,16 @@
             </li>
         </ul>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
     <script src="https://kit.fontawesome.com/5c3490ac70.js" crossorigin="anonymous"></script>
 </body>
 </html>
