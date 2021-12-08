@@ -30,7 +30,11 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
-section {
+p {
+    margin: 2rem;
+}
+
+main {
     line-height: 2;
 }
 
