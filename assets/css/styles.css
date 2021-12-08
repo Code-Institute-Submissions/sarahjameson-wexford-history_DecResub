@@ -30,9 +30,9 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
-p {
+/* p {
     margin: 2rem;
-}
+} */
 
 main {
     line-height: 2;
@@ -44,8 +44,8 @@ a:hover {
 
 .wrapper {
     margin: 0 auto;
-    padding: 0 10px;
-    width: 60%;
+    /* padding: 0 10px; */
+    width: 95%;
 }
 
 /* navbar */
@@ -126,7 +126,7 @@ ul li a:hover {
     justify-content: center;
 }
 
-#map {
+.map {
     display: flex;
     margin: 30px;
     /* justify-content: space-evenly; */
@@ -339,7 +339,7 @@ i {
   }
 
   @media only screen and (max-width: 1258px) {
-    #map{
+    .map{
         display: grid;
         grid-template-columns: 1fr;
         padding: 1em;
